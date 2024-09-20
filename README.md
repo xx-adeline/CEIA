@@ -2,7 +2,7 @@
 
 <img src="images\CEIA.jpg"  />
 
-Official implementation of the following paper:
+Official implementation of the following paper(https://arxiv.org/pdf/2407.06611):
 
 CEIA: CLIP-Based Event-Image Alignment for Open-World Event-Based Understanding by Wenhao Xu, Wenming Weng, Yueyi Zhang, and Zhiwei Xiong. In ECCV workshop 2024.
 
