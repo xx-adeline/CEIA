@@ -1,0 +1,1550 @@
+cfg: !!python/object/new:parse_utils.Config
+- 0.01
+- 16
+- to_rgb
+- N_ImageNet
+- false
+- bf16-mixed
+- false
+- true
+- 10
+- true
+- /data/whxu/Dataset/N_Imagenet/labels.txt
+- 0.0005
+- 5.0e-07
+- true
+- true
+- /data/whxu/Dataset/Imagenet/
+- !!python/object/apply:pathlib.PosixPath
+  - output
+  - ELIP_train_2024_02_24_04_26_56
+- /data/whxu/Dataset/N_Imagenet/extracted_train/train_set.hdf5
+- 256
+- false
+- /data/whxu/Dataset/N_Imagenet/test_list.json
+- 2
+- ViT-L/14
+- ddp
+- /data/whxu/Model/
+- 32
+- /data/whxu/Dataset/N_Imagenet/mapping.txt
+- /data/whxu/Dataset/N_Imagenet/train_list.json
+- - 0
+  - 1
+  - 2
+  - 3
+- true
+- 3407
+- ELIP
+- 70000
+- true
+- /data/whxu/Dataset/N_Imagenet/extracted_val/test_set.hdf5
+- N_ImageNet_Half
+- 1
+- train
+- 24
+- 512
+- full
+- 20
+dataset_info:
+- n03042490:
+  - cliff dwelling
+  - 0
+  n03045698:
+  - cloak
+  - 1
+  n03047690:
+  - clogs
+  - 2
+  n03062245:
+  - cocktail shaker
+  - 3
+  n03063599:
+  - coffee mug
+  - 4
+  n03063689:
+  - coffeemaker
+  - 5
+  n03065424:
+  - spiral or coil
+  - 6
+  n03075370:
+  - combination lock
+  - 7
+  n03085013:
+  - computer keyboard
+  - 8
+  n03089624:
+  - candy store
+  - 9
+  n03095699:
+  - container ship
+  - 10
+  n03100240:
+  - convertible
+  - 11
+  n03109150:
+  - corkscrew
+  - 12
+  n03110669:
+  - cornet
+  - 13
+  n03124043:
+  - cowboy boot
+  - 14
+  n03124170:
+  - cowboy hat
+  - 15
+  n03125729:
+  - cradle
+  - 16
+  n03126707:
+  - construction crane
+  - 17
+  n03127747:
+  - crash helmet
+  - 18
+  n03127925:
+  - crate
+  - 19
+  n03131574:
+  - infant bed
+  - 20
+  n03133878:
+  - Crock Pot
+  - 21
+  n03134739:
+  - croquet ball
+  - 22
+  n03141823:
+  - crutch
+  - 23
+  n03146219:
+  - cuirass
+  - 24
+  n03160309:
+  - dam
+  - 25
+  n03179701:
+  - desk
+  - 26
+  n03180011:
+  - desktop computer
+  - 27
+  n03187595:
+  - rotary dial telephone
+  - 28
+  n03188531:
+  - diaper
+  - 29
+  n03196217:
+  - digital clock
+  - 30
+  n03197337:
+  - digital watch
+  - 31
+  n03201208:
+  - dining table
+  - 32
+  n03207743:
+  - dishcloth
+  - 33
+  n03207941:
+  - dishwasher
+  - 34
+  n03208938:
+  - disc brake
+  - 35
+  n03216828:
+  - dock
+  - 36
+  n03218198:
+  - dog sled
+  - 37
+  n03220513:
+  - dome
+  - 38
+  n03223299:
+  - doormat
+  - 39
+  n03240683:
+  - drilling rig
+  - 40
+  n03249569:
+  - drum
+  - 41
+  n03250847:
+  - drumstick
+  - 42
+  n03255030:
+  - dumbbell
+  - 43
+  n03259280:
+  - Dutch oven
+  - 44
+  n03271574:
+  - electric fan
+  - 45
+  n03272010:
+  - electric guitar
+  - 46
+  n03272562:
+  - electric locomotive
+  - 47
+  n03290653:
+  - entertainment center
+  - 48
+  n03291819:
+  - envelope
+  - 49
+  n03297495:
+  - espresso machine
+  - 50
+  n03314780:
+  - face powder
+  - 51
+  n03325584:
+  - feather boa
+  - 52
+  n03337140:
+  - filing cabinet
+  - 53
+  n03344393:
+  - fireboat
+  - 54
+  n03345487:
+  - fire truck
+  - 55
+  n03347037:
+  - fire screen
+  - 56
+  n03355925:
+  - flagpole
+  - 57
+  n03372029:
+  - flute
+  - 58
+  n03376595:
+  - folding chair
+  - 59
+  n03379051:
+  - football helmet
+  - 60
+  n03384352:
+  - forklift
+  - 61
+  n03388043:
+  - fountain
+  - 62
+  n03388183:
+  - fountain pen
+  - 63
+  n03388549:
+  - four-poster bed
+  - 64
+  n03393912:
+  - freight car
+  - 65
+  n03394916:
+  - French horn
+  - 66
+  n03400231:
+  - frying pan
+  - 67
+  n03404251:
+  - fur coat
+  - 68
+  n03417042:
+  - garbage truck
+  - 69
+  n03424325:
+  - gas mask or respirator
+  - 70
+  n03425413:
+  - gas pump
+  - 71
+  n03443371:
+  - goblet
+  - 72
+  n03444034:
+  - go-kart
+  - 73
+  n03445777:
+  - golf ball
+  - 74
+  n03445924:
+  - golf cart
+  - 75
+  n03447447:
+  - gondola
+  - 76
+  n03447721:
+  - gong
+  - 77
+  n03450230:
+  - gown
+  - 78
+  n03452741:
+  - grand piano
+  - 79
+  n03457902:
+  - greenhouse
+  - 80
+  n03459775:
+  - radiator grille
+  - 81
+  n03461385:
+  - grocery store
+  - 82
+  n03467068:
+  - guillotine
+  - 83
+  n03476684:
+  - hair clip
+  - 84
+  n03476991:
+  - hair spray
+  - 85
+  n03478589:
+  - half-track
+  - 86
+  n03481172:
+  - hammer
+  - 87
+  n03482405:
+  - hamper
+  - 88
+  n03483316:
+  - hair dryer
+  - 89
+  n03485407:
+  - hand-held computer
+  - 90
+  n03485794:
+  - handkerchief
+  - 91
+  n03492542:
+  - hard disk drive
+  - 92
+  n03494278:
+  - harmonica
+  - 93
+  n03495258:
+  - harp
+  - 94
+  n03496892:
+  - combine harvester
+  - 95
+  n03498962:
+  - hatchet
+  - 96
+  n03527444:
+  - holster
+  - 97
+  n03529860:
+  - home theater
+  - 98
+  n03530642:
+  - honeycomb
+  - 99
+  n03532672:
+  - hook
+  - 100
+  n03534580:
+  - hoop skirt
+  - 101
+  n03535780:
+  - gymnastic horizontal bar
+  - 102
+  n03538406:
+  - horse-drawn vehicle
+  - 103
+  n03544143:
+  - hourglass
+  - 104
+  n03584254:
+  - iPod
+  - 105
+  n03584829:
+  - clothes iron
+  - 106
+  n03590841:
+  - carved pumpkin
+  - 107
+  n03594734:
+  - jeans
+  - 108
+  n03594945:
+  - jeep
+  - 109
+  n03595614:
+  - T-shirt
+  - 110
+  n03598930:
+  - jigsaw puzzle
+  - 111
+  n03599486:
+  - rickshaw
+  - 112
+  n03602883:
+  - joystick
+  - 113
+  n03617480:
+  - kimono
+  - 114
+  n03623198:
+  - knee pad
+  - 115
+  n03627232:
+  - knot
+  - 116
+  n03630383:
+  - lab coat
+  - 117
+  n03633091:
+  - ladle
+  - 118
+  n03637318:
+  - lampshade
+  - 119
+  n03642806:
+  - laptop computer
+  - 120
+  n03649909:
+  - lawn mower
+  - 121
+  n03657121:
+  - lens cap
+  - 122
+  n03658185:
+  - letter opener
+  - 123
+  n03661043:
+  - library
+  - 124
+  n03662601:
+  - lifeboat
+  - 125
+  n03666591:
+  - lighter
+  - 126
+  n03670208:
+  - limousine
+  - 127
+  n03673027:
+  - ocean liner
+  - 128
+  n03676483:
+  - lipstick
+  - 129
+  n03680355:
+  - slip-on shoe
+  - 130
+  n03690938:
+  - lotion
+  - 131
+  n03691459:
+  - music speaker
+  - 132
+  n03692522:
+  - loupe magnifying glass
+  - 133
+  n03697007:
+  - sawmill
+  - 134
+  n03706229:
+  - magnetic compass
+  - 135
+  n03709823:
+  - messenger bag
+  - 136
+  n03710193:
+  - mailbox
+  - 137
+  n03710637:
+  - tights
+  - 138
+  n03710721:
+  - one-piece bathing suit
+  - 139
+  n03717622:
+  - manhole cover
+  - 140
+  n03720891:
+  - maraca
+  - 141
+  n03721384:
+  - marimba
+  - 142
+  n03724870:
+  - mask
+  - 143
+  n03729826:
+  - matchstick
+  - 144
+  n03733131:
+  - maypole
+  - 145
+  n03733281:
+  - maze
+  - 146
+  n03733805:
+  - measuring cup
+  - 147
+  n03742115:
+  - medicine cabinet
+  - 148
+  n03743016:
+  - megalith
+  - 149
+  n03759954:
+  - microphone
+  - 150
+  n03761084:
+  - microwave oven
+  - 151
+  n03763968:
+  - military uniform
+  - 152
+  n03764736:
+  - milk can
+  - 153
+  n03769881:
+  - minibus
+  - 154
+  n03770439:
+  - miniskirt
+  - 155
+  n03770679:
+  - minivan
+  - 156
+  n03773504:
+  - missile
+  - 157
+  n03775071:
+  - mitten
+  - 158
+  n03775546:
+  - mixing bowl
+  - 159
+  n03776460:
+  - mobile home
+  - 160
+  n03777568:
+  - ford model t
+  - 161
+  n03777754:
+  - modem
+  - 162
+  n03781244:
+  - monastery
+  - 163
+  n03782006:
+  - monitor
+  - 164
+  n03785016:
+  - moped
+  - 165
+  n03786901:
+  - mortar and pestle
+  - 166
+  n03787032:
+  - graduation cap
+  - 167
+  n03788195:
+  - mosque
+  - 168
+  n03788365:
+  - mosquito net
+  - 169
+  n03791053:
+  - vespa
+  - 170
+  n03792782:
+  - mountain bike
+  - 171
+  n03792972:
+  - tent
+  - 172
+  n03793489:
+  - computer mouse
+  - 173
+  n03794056:
+  - mousetrap
+  - 174
+  n03796401:
+  - moving van
+  - 175
+  n03803284:
+  - muzzle
+  - 176
+  n03804744:
+  - metal nail
+  - 177
+  n03814639:
+  - neck brace
+  - 178
+  n03814906:
+  - necklace
+  - 179
+  n03825788:
+  - baby pacifier
+  - 180
+  n03832673:
+  - notebook computer
+  - 181
+  n03837869:
+  - obelisk
+  - 182
+  n03838899:
+  - oboe
+  - 183
+  n03840681:
+  - ocarina
+  - 184
+  n03841143:
+  - odometer
+  - 185
+  n03843555:
+  - oil filter
+  - 186
+  n03854065:
+  - pipe organ
+  - 187
+  n03857828:
+  - oscilloscope
+  - 188
+  n03866082:
+  - overskirt
+  - 189
+  n03868242:
+  - bullock cart
+  - 190
+  n03868863:
+  - oxygen mask
+  - 191
+  n03871628:
+  - product packet / packaging
+  - 192
+  n03873416:
+  - paddle
+  - 193
+  n03874293:
+  - paddle wheel
+  - 194
+  n03874599:
+  - padlock
+  - 195
+  n03876231:
+  - paintbrush
+  - 196
+  n03877472:
+  - pajamas
+  - 197
+  n03877845:
+  - palace
+  - 198
+  n03884397:
+  - pan flute
+  - 199
+  n03887697:
+  - paper towel
+  - 200
+  n03888257:
+  - parachute
+  - 201
+  n03888605:
+  - parallel bars
+  - 202
+  n03891251:
+  - park bench
+  - 203
+  n03891332:
+  - parking meter
+  - 204
+  n03895866:
+  - railroad car
+  - 205
+  n03899768:
+  - patio
+  - 206
+  n03902125:
+  - payphone
+  - 207
+  n03903868:
+  - pedestal
+  - 208
+  n03908618:
+  - pencil case
+  - 209
+  n03908714:
+  - pencil sharpener
+  - 210
+  n03916031:
+  - perfume
+  - 211
+  n03920288:
+  - Petri dish
+  - 212
+  n03924679:
+  - photocopier
+  - 213
+  n03929660:
+  - plectrum
+  - 214
+  n03929855:
+  - Pickelhaube
+  - 215
+  n03930313:
+  - picket fence
+  - 216
+  n03930630:
+  - pickup truck
+  - 217
+  n03933933:
+  - pier
+  - 218
+  n03935335:
+  - piggy bank
+  - 219
+  n03937543:
+  - pill bottle
+  - 220
+  n03938244:
+  - pillow
+  - 221
+  n03942813:
+  - ping-pong ball
+  - 222
+  n03944341:
+  - pinwheel
+  - 223
+  n03947888:
+  - pirate ship
+  - 224
+  n03950228:
+  - drink pitcher
+  - 225
+  n03954731:
+  - block plane
+  - 226
+  n03956157:
+  - planetarium
+  - 227
+  n03958227:
+  - plastic bag
+  - 228
+  n03961711:
+  - plate rack
+  - 229
+  n03967562:
+  - farm plow
+  - 230
+  n03970156:
+  - plunger
+  - 231
+  n03976467:
+  - Polaroid camera
+  - 232
+  n03976657:
+  - pole
+  - 233
+  n03977966:
+  - police van
+  - 234
+  n03980874:
+  - poncho
+  - 235
+  n03982430:
+  - pool table
+  - 236
+  n03983396:
+  - soda bottle
+  - 237
+  n03991062:
+  - plant pot
+  - 238
+  n03992509:
+  - potter's wheel
+  - 239
+  n03995372:
+  - power drill
+  - 240
+  n03998194:
+  - prayer rug
+  - 241
+  n04004767:
+  - printer
+  - 242
+  n04005630:
+  - prison
+  - 243
+  n04008634:
+  - projectile
+  - 244
+  n04009552:
+  - projector
+  - 245
+  n04019541:
+  - hockey puck
+  - 246
+  n04023962:
+  - punching bag
+  - 247
+  n04026417:
+  - purse
+  - 248
+  n04033901:
+  - quill
+  - 249
+  n04033995:
+  - quilt
+  - 250
+  n04037443:
+  - race car
+  - 251
+  n04039381:
+  - racket
+  - 252
+  n04040759:
+  - radiator
+  - 253
+  n04041544:
+  - radio
+  - 254
+  n04044716:
+  - radio telescope
+  - 255
+  n04049303:
+  - rain barrel
+  - 256
+  n04065272:
+  - recreational vehicle
+  - 257
+  n04067472:
+  - fishing casting reel
+  - 258
+  n04069434:
+  - reflex camera
+  - 259
+  n04070727:
+  - refrigerator
+  - 260
+  n04074963:
+  - remote control
+  - 261
+  n04081281:
+  - restaurant
+  - 262
+  n04086273:
+  - revolver
+  - 263
+  n04090263:
+  - rifle
+  - 264
+  n04099969:
+  - rocking chair
+  - 265
+  n04111531:
+  - rotisserie
+  - 266
+  n04116512:
+  - eraser
+  - 267
+  n04118538:
+  - rugby ball
+  - 268
+  n04118776:
+  - ruler measuring stick
+  - 269
+  n04120489:
+  - sneaker
+  - 270
+  n04125021:
+  - safe
+  - 271
+  n04127249:
+  - safety pin
+  - 272
+  n04131690:
+  - salt shaker
+  - 273
+  n04133789:
+  - sandal
+  - 274
+  n04136333:
+  - sarong
+  - 275
+  n04141076:
+  - saxophone
+  - 276
+  n04141327:
+  - scabbard
+  - 277
+  n04141975:
+  - weighing scale
+  - 278
+  n04146614:
+  - school bus
+  - 279
+  n04147183:
+  - schooner
+  - 280
+  n04149813:
+  - scoreboard
+  - 281
+  n04152593:
+  - CRT monitor
+  - 282
+  n04153751:
+  - screw
+  - 283
+  n04154565:
+  - screwdriver
+  - 284
+  n04162706:
+  - seat belt
+  - 285
+  n04179913:
+  - sewing machine
+  - 286
+  n04192698:
+  - shield
+  - 287
+  n04200800:
+  - shoe store
+  - 288
+  n04201297:
+  - shoji screen / room divider
+  - 289
+  n04204238:
+  - shopping basket
+  - 290
+  n04204347:
+  - shopping cart
+  - 291
+  n04208210:
+  - shovel
+  - 292
+  n04209133:
+  - shower cap
+  - 293
+  n04209239:
+  - shower curtain
+  - 294
+  n04228054:
+  - ski
+  - 295
+  n04229816:
+  - balaclava ski mask
+  - 296
+  n04235860:
+  - sleeping bag
+  - 297
+  n04238763:
+  - slide rule
+  - 298
+  n04239074:
+  - sliding door
+  - 299
+  n04243546:
+  - slot machine
+  - 300
+  n04251144:
+  - snorkel
+  - 301
+  n04252077:
+  - snowmobile
+  - 302
+  n04252225:
+  - snowplow
+  - 303
+  n04254120:
+  - soap dispenser
+  - 304
+  n04254680:
+  - soccer ball
+  - 305
+  n04254777:
+  - sock
+  - 306
+  n04258138:
+  - solar thermal collector
+  - 307
+  n04259630:
+  - sombrero
+  - 308
+  n04263257:
+  - soup bowl
+  - 309
+  n04264628:
+  - keyboard space bar
+  - 310
+  n04265275:
+  - space heater
+  - 311
+  n04266014:
+  - space shuttle
+  - 312
+  n04270147:
+  - spatula
+  - 313
+  n04273569:
+  - motorboat
+  - 314
+  n04275548:
+  - spider web
+  - 315
+  n04277352:
+  - spindle
+  - 316
+  n04285008:
+  - sports car
+  - 317
+  n04286575:
+  - spotlight
+  - 318
+  n04296562:
+  - stage
+  - 319
+  n04310018:
+  - steam locomotive
+  - 320
+  n04311004:
+  - through arch bridge
+  - 321
+  n04311174:
+  - steel drum
+  - 322
+  n04317175:
+  - stethoscope
+  - 323
+  n04325704:
+  - scarf
+  - 324
+  n04326547:
+  - stone wall
+  - 325
+  n04328186:
+  - stopwatch
+  - 326
+  n04330267:
+  - stove
+  - 327
+  n04332243:
+  - strainer
+  - 328
+  n04335435:
+  - tram
+  - 329
+  n04336792:
+  - stretcher
+  - 330
+  n04344873:
+  - couch
+  - 331
+  n04346328:
+  - stupa
+  - 332
+  n04347754:
+  - submarine
+  - 333
+  n04350905:
+  - suit
+  - 334
+  n04355338:
+  - sundial
+  - 335
+  n04355933:
+  - sunglass
+  - 336
+  n04356056:
+  - sunglasses
+  - 337
+  n04357314:
+  - sunscreen
+  - 338
+  n04366367:
+  - suspension bridge
+  - 339
+  n04367480:
+  - mop
+  - 340
+  n04370456:
+  - sweatshirt
+  - 341
+  n04371430:
+  - swim trunks / shorts
+  - 342
+  n04371774:
+  - swing
+  - 343
+  n04372370:
+  - electrical switch
+  - 344
+  n04376876:
+  - syringe
+  - 345
+  n04380533:
+  - table lamp
+  - 346
+  n04389033:
+  - tank
+  - 347
+  n04392985:
+  - tape player
+  - 348
+  n04398044:
+  - teapot
+  - 349
+  n04399382:
+  - teddy bear
+  - 350
+  n04404412:
+  - television
+  - 351
+  n04409515:
+  - tennis ball
+  - 352
+  n04417672:
+  - thatched roof
+  - 353
+  n04418357:
+  - front curtain
+  - 354
+  n04423845:
+  - thimble
+  - 355
+  n04428191:
+  - threshing machine
+  - 356
+  n04429376:
+  - throne
+  - 357
+  n04435653:
+  - tile roof
+  - 358
+  n04442312:
+  - toaster
+  - 359
+  n04443257:
+  - tobacco shop
+  - 360
+  n04447861:
+  - toilet seat
+  - 361
+  n04456115:
+  - torch
+  - 362
+  n04458633:
+  - totem pole
+  - 363
+  n04461696:
+  - tow truck
+  - 364
+  n04462240:
+  - toy store
+  - 365
+  n04465501:
+  - tractor
+  - 366
+  n04467665:
+  - semi-trailer truck
+  - 367
+  n04476259:
+  - tray
+  - 368
+  n04479046:
+  - trench coat
+  - 369
+  n04482393:
+  - tricycle
+  - 370
+  n04483307:
+  - trimaran
+  - 371
+  n04485082:
+  - tripod
+  - 372
+  n04486054:
+  - triumphal arch
+  - 373
+  n04487081:
+  - trolleybus
+  - 374
+  n04487394:
+  - trombone
+  - 375
+  n04493381:
+  - hot tub
+  - 376
+  n04501370:
+  - turnstile
+  - 377
+  n04505470:
+  - typewriter keyboard
+  - 378
+  n04507155:
+  - umbrella
+  - 379
+  n04509417:
+  - unicycle
+  - 380
+  n04515003:
+  - upright piano
+  - 381
+  n04517823:
+  - vacuum cleaner
+  - 382
+  n04522168:
+  - vase
+  - 383
+  n04523525:
+  - vaulted or arched ceiling
+  - 384
+  n04525038:
+  - velvet fabric
+  - 385
+  n04525305:
+  - vending machine
+  - 386
+  n04532106:
+  - vestment
+  - 387
+  n04532670:
+  - viaduct
+  - 388
+  n04536866:
+  - violin
+  - 389
+  n04540053:
+  - volleyball
+  - 390
+  n04542943:
+  - waffle iron
+  - 391
+  n04548280:
+  - wall clock
+  - 392
+  n04548362:
+  - wallet
+  - 393
+  n04550184:
+  - wardrobe
+  - 394
+  n04552348:
+  - military aircraft
+  - 395
+  n04553703:
+  - sink
+  - 396
+  n04554684:
+  - washing machine
+  - 397
+  n04557648:
+  - water bottle
+  - 398
+  n04560804:
+  - water jug
+  - 399
+  n04562935:
+  - water tower
+  - 400
+  n04579145:
+  - whiskey jug
+  - 401
+  n04579432:
+  - whistle
+  - 402
+  n04584207:
+  - hair wig
+  - 403
+  n04589890:
+  - window screen
+  - 404
+  n04590129:
+  - window shade
+  - 405
+  n04591157:
+  - Windsor tie
+  - 406
+  n04591713:
+  - wine bottle
+  - 407
+  n04592741:
+  - airplane wing
+  - 408
+  n04596742:
+  - wok
+  - 409
+  n04597913:
+  - wooden spoon
+  - 410
+  n04599235:
+  - wool
+  - 411
+  n04604644:
+  - split-rail fence
+  - 412
+  n04606251:
+  - shipwreck
+  - 413
+  n04612504:
+  - sailboat
+  - 414
+  n04613696:
+  - yurt
+  - 415
+  n06359193:
+  - website
+  - 416
+  n06596364:
+  - comic book
+  - 417
+  n06785654:
+  - crossword
+  - 418
+  n06794110:
+  - traffic or street sign
+  - 419
+  n06874185:
+  - traffic light
+  - 420
+  n07248320:
+  - dust jacket
+  - 421
+  n07565083:
+  - menu
+  - 422
+  n07579787:
+  - plate
+  - 423
+  n07583066:
+  - guacamole
+  - 424
+  n07584110:
+  - consomme
+  - 425
+  n07590611:
+  - hot pot
+  - 426
+  n07613480:
+  - trifle
+  - 427
+  n07614500:
+  - ice cream
+  - 428
+  n07615774:
+  - popsicle
+  - 429
+  n07684084:
+  - baguette
+  - 430
+  n07693725:
+  - bagel
+  - 431
+  n07695742:
+  - pretzel
+  - 432
+  n07697313:
+  - cheeseburger
+  - 433
+  n07697537:
+  - hot dog
+  - 434
+  n07711569:
+  - mashed potatoes
+  - 435
+  n07714571:
+  - cabbage
+  - 436
+  n07714990:
+  - broccoli
+  - 437
+  n07715103:
+  - cauliflower
+  - 438
+  n07716358:
+  - zucchini
+  - 439
+  n07716906:
+  - spaghetti squash
+  - 440
+  n07717410:
+  - acorn squash
+  - 441
+  n07717556:
+  - butternut squash
+  - 442
+  n07718472:
+  - cucumber
+  - 443
+  n07718747:
+  - artichoke
+  - 444
+  n07720875:
+  - bell pepper
+  - 445
+  n07730033:
+  - cardoon
+  - 446
+  n07734744:
+  - mushroom
+  - 447
+  n07742313:
+  - Granny Smith apple
+  - 448
+  n07745940:
+  - strawberry
+  - 449
+  n07747607:
+  - orange
+  - 450
+  n07749582:
+  - lemon
+  - 451
+  n07753113:
+  - fig
+  - 452
+  n07753275:
+  - pineapple
+  - 453
+  n07753592:
+  - banana
+  - 454
+  n07754684:
+  - jackfruit
+  - 455
+  n07760859:
+  - cherimoya (custard apple)
+  - 456
+  n07768694:
+  - pomegranate
+  - 457
+  n07802026:
+  - hay
+  - 458
+  n07831146:
+  - carbonara
+  - 459
+  n07836838:
+  - chocolate syrup
+  - 460
+  n07860988:
+  - dough
+  - 461
+  n07871810:
+  - meatloaf
+  - 462
+  n07873807:
+  - pizza
+  - 463
+  n07875152:
+  - pot pie
+  - 464
+  n07880968:
+  - burrito
+  - 465
+  n07892512:
+  - red wine
+  - 466
+  n07920052:
+  - espresso
+  - 467
+  n07930864:
+  - tea cup
+  - 468
+  n07932039:
+  - eggnog
+  - 469
+  n09193705:
+  - mountain
+  - 470
+  n09229709:
+  - bubble
+  - 471
+  n09246464:
+  - cliff
+  - 472
+  n09256479:
+  - coral reef
+  - 473
+  n09288635:
+  - geyser
+  - 474
+  n09332890:
+  - lakeshore
+  - 475
+  n09399592:
+  - promontory
+  - 476
+  n09421951:
+  - sandbar
+  - 477
+  n09428293:
+  - beach
+  - 478
+  n09468604:
+  - valley
+  - 479
+  n09472597:
+  - volcano
+  - 480
+  n09835506:
+  - baseball player
+  - 481
+  n10148035:
+  - bridegroom
+  - 482
+  n10565667:
+  - scuba diver
+  - 483
+  n11879895:
+  - rapeseed
+  - 484
+  n11939491:
+  - daisy
+  - 485
+  n12057211:
+  - yellow lady's slipper
+  - 486
+  n12144580:
+  - corn
+  - 487
+  n12267677:
+  - acorn
+  - 488
+  n12620546:
+  - rose hip
+  - 489
+  n12768682:
+  - horse chestnut seed
+  - 490
+  n12985857:
+  - coral fungus
+  - 491
+  n12998815:
+  - agaric
+  - 492
+  n13037406:
+  - gyromitra
+  - 493
+  n13040303:
+  - stinkhorn mushroom
+  - 494
+  n13044778:
+  - earth star fungus
+  - 495
+  n13052670:
+  - hen of the woods mushroom
+  - 496
+  n13054560:
+  - bolete
+  - 497
+  n13133613:
+  - corn cob
+  - 498
+  n15075141:
+  - toilet paper
+  - 499
+- 500
